@@ -27,14 +27,27 @@
 #   }
 # }
 
-# Baseado na input do usuário, retornar para ele o maior, menor e o preço atual do ativo que foi digitado
+#dicionario = {"high": "147253.00000000",    "low": "137000.00000000", "vol": "74.05813683"}
+#saber o que tem dentro do dicionário
+## dicionario["low"] // dicionario["last"]
+#adicionar elemento dentro do dicionario
+##dicionario["adicionar"] = "0000"
+#substituir elemento dentro do dicionário
+##dicionario["adicionar"]= "0002"
+#print(dicionario)
+#dic_teste={}
+#dic_teste['A'] = '1'
+#dic_teste['B'] = '2'
+#dic_teste['C'] = '3'
+#print(dic_teste)
+#print(dic_teste['B'])
+#print(dic_teste.get('C'))
 
-#  libs para fazer o sistema: requests
+## === Arquivo TXT (Manipulação) === ##
 
+## para acrescentar informação: 'a' (apendd)
+#with open('arquivo.txt', 'a') as f:
+#    f.write(apicoins())
 
-# TODO: fazer a primeira chamada na api utilizando a url de exemplo e printando o retorno, qualquer moeda disponível na api
-
-
-# 1. Utilizar uma função para bater na api, dentro dessa func, chamar o requests e printar o resultado
 
 
